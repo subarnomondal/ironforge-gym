@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IronForge Gym
 
-## Getting Started
+A premium, high-energy gym website built with **Next.js 14 (App Router)**, **Tailwind CSS**, and **Framer Motion**.
 
-First, run the development server:
+![IronForge Gym](https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop)
+
+## 🚀 Features
+
+- **Modern Tech Stack**: Built on Next.js 14 App Router for optimal performance and SEO.
+- **Aggressive Aesthetics**: Deep blacks, sharp grays, and electric red accents create a brutalist, high-energy vibe.
+- **Smooth Animations**: Integrated with `framer-motion` for fluid page transitions, scroll fade-ins, and interactive hover effects.
+- **Glassmorphism UI**: Sleek frosted glass cards and a sticky backdrop-blur navigation bar.
+- **Interactive WhatsApp Widget**: A custom-built floating chat widget to instantly capture leads and answer FAQs.
+- **Fully Responsive**: Mobile-first design that scales perfectly to 4K displays.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (React)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 🏃‍♂️ Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Pages & Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` - Home Page (Hero, Timetable, Trainer Profiles, Gallery, FAQs)
+- `/about` - About Us (Story, Mission, Facility)
+- `/programs` - Training Programs (Strength, HIIT, Cardio, etc.)
+- `/pricing` - Membership Plans (Basic, Pro, Elite)
+- `/contact` - Contact Form & Interactive Map
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
