@@ -40,10 +40,10 @@ export function Navbar() {
             </div>
           </div>
           
-          <div className="hidden md:block">
+          <div className="hidden md:flex flex-shrink-0 ml-4">
             <Link
               href="/pricing"
-              className="bg-primary text-black font-bold uppercase tracking-widest px-6 py-3 hover:bg-white hover:text-black transition-all"
+              className="bg-primary text-black font-bold uppercase tracking-widest px-6 py-3 hover:bg-white hover:text-black transition-all whitespace-nowrap"
             >
               Join Now
             </Link>
