@@ -47,8 +47,8 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Link href="tel:+919876543210" className="bg-primary text-black font-bold uppercase tracking-widest px-8 py-4 hover:bg-white hover:scale-105 transition-all flex items-center justify-center gap-2">
-              Call Now <Phone className="w-5 h-5 fill-black" />
+            <Link href="/pricing" className="bg-primary text-black font-bold uppercase tracking-widest px-8 py-4 hover:bg-white hover:scale-105 transition-all flex items-center justify-center gap-2">
+              Join Now <ArrowRight className="w-5 h-5" />
             </Link>
             <Link href="/programs" className="bg-transparent border-2 border-white text-white font-bold uppercase tracking-widest px-8 py-4 hover:border-primary hover:text-primary transition-all">
               View Programs
@@ -229,8 +229,8 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-heading tracking-wide mb-4">Class <span className="text-primary">Schedule</span></h2>
             <div className="w-24 h-1 bg-primary mx-auto" />
           </div>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse border border-white/10">
+          <div className="overflow-x-auto pb-4">
+            <table className="w-full text-left border-collapse border border-white/10 min-w-[800px]">
               <thead>
                 <tr className="bg-dark-gray text-white uppercase tracking-widest text-sm">
                   <th className="p-4 border border-white/10">Time</th>
@@ -298,7 +298,7 @@ export default function Home() {
             {[
               { name: "Jaxson Stone", role: "Head Strength Coach", img: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=600&auto=format&fit=crop", cert: "CSCS, Olympic Lifting" },
               { name: "Elena Rostova", role: "CrossFit & HIIT", img: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=600&auto=format&fit=crop", cert: "CrossFit L3, Nutrition" },
-              { name: "Marcus Reed", role: "Combat & Conditioning", img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&auto=format&fit=crop", cert: "Muay Thai, ACE PT" }
+              { name: "Marcus Reed", role: "Combat & Conditioning", img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=600&auto=format&fit=crop", cert: "Muay Thai, ACE PT" }
             ].map((trainer, i) => (
               <motion.div 
                 key={i}
@@ -332,7 +332,7 @@ export default function Home() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop",
+              "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop",
               "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop",
               "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop",
               "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800&auto=format&fit=crop"

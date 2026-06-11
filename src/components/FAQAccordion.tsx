@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Plus, Minus } from "lucide-react";
+import { Plus, X } from "lucide-react";
 
 interface FAQAccordionProps {
   items: { question: string; answer: string }[];
@@ -23,7 +23,7 @@ export function FAQAccordion({ items }: FAQAccordionProps) {
             >
               <span className="font-bold text-lg">{item.question}</span>
               <span className="text-primary shrink-0 ml-4">
-                {isActive ? <Minus /> : <Plus />}
+                {isActive ? <X /> : <Plus />}
               </span>
             </button>
             <AnimatePresence>

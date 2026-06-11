@@ -71,7 +71,7 @@ export function Footer() {
         
         <div className="mt-12 border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            &copy; 2025 Rivutrion Studio. All rights reserved.
+            &copy; {new Date().getFullYear()} Rivutrion Studio. All rights reserved.
           </p>
         </div>
       </div>
