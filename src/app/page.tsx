@@ -8,6 +8,9 @@ import { ProgramCard } from "@/components/ProgramCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { PricingCard } from "@/components/PricingCard";
 import { FAQAccordion } from "@/components/FAQAccordion";
+import { EquipmentSection } from "@/components/EquipmentSection";
+import { BMICalculator } from "@/components/BMICalculator";
+import { NewsletterSection } from "@/components/NewsletterSection";
 
 export default function Home() {
   return (
@@ -222,6 +225,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BMI Calculator Section */}
+      <BMICalculator />
+
       {/* Interactive Schedule Section */}
       <section className="py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -322,6 +328,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Equipment / Arsenal Section */}
+      <EquipmentSection />
+
       {/* Facility Gallery */}
       <section className="py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -368,6 +377,9 @@ export default function Home() {
           ]} />
         </div>
       </section>
+
+      {/* Newsletter Section */}
+      <NewsletterSection />
 
     </div>
   );
