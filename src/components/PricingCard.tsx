@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 interface PricingCardProps {
@@ -46,16 +47,18 @@ export function PricingCard({ title, price, features, isPopular, delay = 0 }: Pr
         ))}
       </ul>
       
-      <button
-        className={cn(
-          "w-full py-4 font-bold uppercase tracking-widest transition-all",
-          isPopular 
-            ? "bg-primary text-black hover:bg-white" 
-            : "border border-white/20 hover:border-primary hover:text-primary"
-        )}
-      >
-        Choose Plan
-      </button>
+      <Link href="/contact" className="w-full">
+        <button
+          className={cn(
+            "w-full py-4 font-bold uppercase tracking-widest transition-all",
+            isPopular 
+              ? "bg-primary text-black hover:bg-white" 
+              : "border border-white/20 hover:border-primary hover:text-primary"
+          )}
+        >
+          Choose Plan
+        </button>
+      </Link>
     </motion.div>
   );
 }
